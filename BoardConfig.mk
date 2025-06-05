@@ -8,3 +8,4 @@ include device/hardkernel/odroidc4/BoardConfig.mk
 
 ## Kernel
 TARGET_KERNEL_CONFIG += aml_tab.config
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
